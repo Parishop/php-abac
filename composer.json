@@ -1,0 +1,26 @@
+{
+    "name": "parishop/php-abac",
+    "description": "Attribute-Based Access Control in PHPixie",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vadim Meling",
+            "email": "vadim@meling.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Parishop\\": "src/Parishop",
+            "Parishop\\Tests\\": "tests/Parishop/Tests"
+        }
+    },
+    "require": {
+        "php": ">=5.6",
+        "phpixie/default-bundle": "~3.1",
+        "phpixie/bundle-framework": "~3.1",
+        "parishop/processors": "~1.0"
+    },
+    "require-dev": {
+        "phpixie/test": "~3.0"
+    }
+}
